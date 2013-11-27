@@ -23,52 +23,52 @@ Or install it yourself as:
 Add the CSS files you want to include:
 
 ```ruby
-*= require reset
-*= require ad
-*= require alert
-*= require breadcrumb
-*= require button
-*= require code
-*= require collapse
-*= require datepicker
-*= require dropdown
-*= require footer
-*= require form
-*= require grid
-*= require header
-*= require icon
-*= require image
-*= require label_and_badge
-*= require link
-*= require list
-*= require map
-*= require modal
-*= require pagination
-*= require placeholder
-*= require popover
-*= require progress
-*= require tab
-*= require table
-*= require timepicker
-*= require tooltip
-*= require transition
-*= require trunk
-*= require typography
+*= require reset.css
+*= require ad.css
+*= require alert.css
+*= require breadcrumb.css
+*= require button.css
+*= require code.css
+*= require collapse.css
+*= require datepicker.css
+*= require dropdown.css
+*= require footer.css
+*= require form.css
+*= require grid.css
+*= require header.css
+*= require icon.css
+*= require image.css
+*= require label_and_badge.css
+*= require link.css
+*= require list.css
+*= require map.css
+*= require modal.css
+*= require pagination.css
+*= require placeholder.css
+*= require popover.css
+*= require progress.css
+*= require tab.css
+*= require table.css
+*= require timepicker.css
+*= require tooltip.css
+*= require transition.css
+*= require trunk.css
+*= require typography.css
 ```
 
 Add the JS files you want to include:
 
 ```ruby
-//= require alert
-//= require collapse
-//= require date_picker
-//= require dropdown
-//= require file_input
-//= require map
-//= require modal
-//= require tab
-//= require time_picker
-//= require tooltip
-//= require popover
-//= require transition
+//= require alert.js
+//= require collapse.js
+//= require date_picker.js
+//= require dropdown.js
+//= require file_input.js
+//= require map.js
+//= require modal.js
+//= require tab.js
+//= require time_picker.js
+//= require tooltip.js
+//= require popover.js
+//= require transition.js
 ```
