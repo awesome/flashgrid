@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Flashoff::VERSION
   spec.authors       = ["Juan Gomez"]
   spec.email         = ["j.gomez@drexed.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Flashoff is a refreshingly modern responsive web framework for beautiful and faster project development.}
+  spec.summary       = %q{Flashoff Responsive Web Framework}
+  spec.homepage      = "http://quantum.drexed.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

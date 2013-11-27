@@ -1,6 +1,8 @@
 # Flashoff
 
-TODO: Write a gem description
+[Flashoff](http://flashoff.drexed.com) is a refreshingly modern responsive web framework for beautiful and faster project development.
+
+To get started, check out [http://flashoff.drexed.com](http://flashoff.drexed.com)!
 
 ## Installation
 
@@ -18,12 +20,55 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the CSS files you want to include:
 
-## Contributing
+```ruby
+*= require reset
+*= require ad
+*= require alert
+*= require breadcrumb
+*= require button
+*= require code
+*= require collapse
+*= require datepicker
+*= require dropdown
+*= require footer
+*= require form
+*= require grid
+*= require header
+*= require icon
+*= require image
+*= require label_and_badge
+*= require link
+*= require list
+*= require map
+*= require modal
+*= require pagination
+*= require placeholder
+*= require popover
+*= require progress
+*= require tab
+*= require table
+*= require timepicker
+*= require tooltip
+*= require transitions
+*= require trunk
+*= require typography
+```
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Add the JS files you want to include:
+
+```ruby
+//= require alert
+//= require collapse
+//= require date_picker
+//= require dropdown
+//= require file_input
+//= require map
+//= require modal
+//= require tab
+//= require time_picker
+//= require tooltip
+//= require popover
+//= require transitions
+```
