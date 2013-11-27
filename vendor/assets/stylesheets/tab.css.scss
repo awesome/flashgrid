@@ -1,0 +1,165 @@
+/* Table of Contents
+==================================================
+#Tab */
+
+/* #Tab
+================================================== */
+.nav {
+  list-style: none;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+.nav > .pull-none  { float: none; }
+.nav > .pull-left  { float: left; }
+.nav > .pull-right { float: right; }
+.nav > li > a {
+  color: rgba(158,171,179,1);
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  color: rgba(71,74,84,1);
+  text-decoration: none;
+}
+.nav-header {
+  background-color: rgba(58,144,216,1);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: rgba(255,255,255,1);
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 10px 15px;
+}
+.nav li + .nav-header { margin-top: 10px; }
+.nav-list {
+  margin-bottom: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.nav-list > li > a,
+.nav-list .nav-header {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.nav-list > li > a {
+  color: rgba(158,171,179,1);
+  padding: 11px 15px 8px 15px;
+  font-weight: bold;
+}
+.nav-list > li > a:hover { background-color: rgba(236,238,241,1); }
+.nav-list > .active > a,
+.nav-list > .active > a:hover,
+.nav-list > .active > a:focus { 
+  background-color: rgba(246,247,249,1);
+  color: rgba(71,74,84,1);
+}
+.nav-list .divider {
+  background-color: rgba(236,238,241,1);
+  height: 1px;
+  margin: 10px 0 8px 0;
+  overflow: hidden;
+}
+.nav-tabs:before,
+.nav-pills:before,
+.nav-tabs:after,
+.nav-pills:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+.nav-tabs:after,
+.nav-pills:after { clear: both; }
+.nav-tabs > li,
+.nav-pills > li { float: left; }
+.nav-tabs > li > a { margin-right: 20px; }
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus { color: rgba(58,144,216,1); }
+.nav-pills > li > a {
+  background-color: rgba(246,247,249,1);
+  border-radius: 2px;
+  color: rgba(158,171,179,1);
+  margin-right: 3px;
+  padding: 9px 10px 8px 10px;
+}
+.nav-pills > li > a:hover { background-color: rgba(236,238,241,1); }
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > .active > a:focus {
+  background-color: rgba(58,144,216,1);
+  color: rgba(255,255,255,1);
+}
+.nav-stacked > li { float: none; }
+.nav-stacked > li > a { margin-right: 0; }
+.nav-tabs.nav-stacked { border-bottom: 0; }
+.nav-tabs.nav-stacked > li > a {
+  background-color: rgba(246,247,249,1);
+  color: rgba(158,171,179,1);
+  padding: 9px 10px 8px 10px;
+}
+.nav-tabs.nav-stacked > li:first-child > a {
+  border-top-right-radius: 3px;
+   border-top-left-radius: 3px;
+}
+.nav-tabs.nav-stacked > li:last-child > a {
+  border-bottom-right-radius: 3px;
+   border-bottom-left-radius: 3px;
+}
+.nav-tabs.nav-stacked > li > a:hover,
+.nav-tabs.nav-stacked > li > a:focus {
+  background-color: rgba(236,238,241,1);
+  color: rgba(71,74,84,1);
+  z-index: 2;
+}
+.nav-tabs.nav-stacked > .active > a,
+.nav-tabs.nav-stacked > .active > a:hover,
+.nav-tabs.nav-stacked > .active > a:focus {
+  background-color: rgba(58,144,216,1);
+  color: rgba(255,255,255,1);
+}
+.nav-pills.nav-stacked > li > a { margin-bottom: 3px; }
+.nav-pills.nav-stacked > li:last-child > a { margin-bottom: 0; }
+.nav-tabs .open .dropdown-toggle,
+.nav-pills .open .dropdown-toggle,
+.nav > li.dropdown.open.active > a:hover,
+.nav > li.dropdown.open.active > a:focus {
+  background-color: rgba(236,238,241,1);
+  color: rgba(71,74,84,1);
+}
+.tabbable { *zoom: 1; }
+.tabbable:before,
+.tabbable:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+.tabbable:after { clear: both; }
+.tab-content { overflow: auto; }
+.tab-content > .tab-pane,
+.pill-content > .pill-pane { display: none; }
+.tab-content > .active,
+.pill-content > .active { display: block; }
+.tabs-below > .nav-tabs > li > a { border-radius: 0 0 3px 3px; }
+.tabs-left > .nav-tabs > li,
+.tabs-right > .nav-tabs > li { float: none; }
+.tabs-left > .nav-tabs > li > a,
+.tabs-right > .nav-tabs > li > a {
+  margin-right: 0;
+  margin-bottom: 3px;
+  min-width: 50px;
+}
+.tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 19px;
+}
+.tabs-left > .nav-tabs > li > a { border-radius: 3px 0 0 3px; }
+.tabs-right > .nav-tabs {
+  float: right;
+  margin-left: 19px;
+}
+.tabs-right > .nav-tabs > li > a { border-radius: 0 3px 3px 0; }

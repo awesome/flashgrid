@@ -1,0 +1,49 @@
+/* Table of Contents
+==================================================
+#Code
+#Pre */
+
+/* #Code
+================================================== */
+code {
+  background-color: rgba(236,238,241,1);
+  border-radius: 2px;
+  color: rgba(43,50,53,1);
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0;
+  padding: 3px 5px 4px 5px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+}
+
+/* #Pre
+================================================== */
+pre {
+  background-color: rgba(236,238,241,1);
+  border-radius: 3px;
+  color: rgba(43,50,53,1);
+  display: block;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0;
+  padding: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+}
+pre span.comment             { color: rgba(43,50,53,1); font-style: italic; }
+pre span.error               { border: 1px solid rgba(240,35,17,1); }
+pre span.highlight           { background-color: rgba(43,50,53,1); color: rgba(255,255,255,1); padding: 3px 0; }
+pre span.keyword             { color: rgba(102,102,102,1); }
+pre span.keyword-constant    { color: rgba(240,35,17,1); }
+pre span.keyword-declaration { color: rgba(0,0,0,1); }
+pre span.keyword-pseudo      { color: rgba(170,34,255,1); }
+pre span.keyword-reserved    { color: rgba(170,34,255,1); font-weight: bold; }
+pre span.keyword-type        { color: rgba(255,255,255,1); font-weight: bold; }
+pre span.number              { color: rgba(75,173,8,1); }
+pre span.operator            { color: rgba(43,50,53,1); }
+pre span.string              { color: rgba(16,127,201,1); }

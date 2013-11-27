@@ -51,7 +51,7 @@ Add the CSS files you want to include:
 *= require table
 *= require timepicker
 *= require tooltip
-*= require transitions
+*= require transition
 *= require trunk
 *= require typography
 ```
@@ -70,5 +70,5 @@ Add the JS files you want to include:
 //= require time_picker
 //= require tooltip
 //= require popover
-//= require transitions
+//= require transition
 ```

@@ -1,0 +1,69 @@
+/* Table of Contents
+==================================================
+#Trunk
+#Media Queries */
+
+/* #Trunk
+================================================== */
+.trunk {
+  background-color: rgba(58,144,216,1);
+  margin: -40px 0 40px 0;
+  width: 100%;
+}
+.trunk-buffer { padding: 30px 0; }
+.trunk-search input {
+  background-color: transparent;
+  border-color: rgba(255,255,255,0.25);
+  color: rgba(255,255,255,1);
+  font-weight: 200;
+}
+.trunk-search input:focus { border-color: rgba(255,255,255,1); }
+.trunk-search input:-moz-placeholder { color: rgba(255,255,255,0.40); }
+.trunk-search input:-ms-input-placeholder { color: rgba(255,255,255,0.40); }
+.trunk-search input::-webkit-input-placeholder { color: rgba(255,255,255,0.40); }
+.trunk-nav a {
+  border-radius: 3px;
+  color: rgba(255,255,255,0.8);
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  padding: 12px 15px 10px 0;
+}
+.trunk-nav a:hover {
+  background-color: rgba(0,0,0,0.075);
+  color: rgba(255,255,255,1);
+  padding-left: 15px;
+}
+.trunk-account {
+  border-top: 1px solid rgba(255,255,255, 0.1);
+  margin-top: 10px;
+}
+.trunk-account li {
+  float: left;
+  margin: 10px 5px 0 0;
+  width: 207px;
+}
+.trunk-account li:last-child { margin-right: 0; }
+.trunk-account li a {
+  border-radius: 3px;
+  color: rgba(255,255,255,0.8);
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px 0 3px 0;
+  text-align: center;
+}
+.trunk-account li a:hover {
+  background-color: rgba(0,0,0,0.075);
+  color: rgba(255,255,255,1);
+}
+
+/* #Media Queries
+================================================== */
+@media only screen and (max-width: 767px) {
+  .trunk-account li { width: 147px; }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .trunk-account li { width: 207px; }
+}
