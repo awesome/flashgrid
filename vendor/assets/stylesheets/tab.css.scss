@@ -74,12 +74,22 @@
 }
 .nav-tabs:after,
 .nav-pills:after { clear: both; }
+
+.nav-tabs { border-bottom: 1px solid rgba(236,238,241,1); }
+
 .nav-tabs > li,
 .nav-pills > li { float: left; }
-.nav-tabs > li > a { margin-right: 20px; }
+.nav-tabs > li > a {
+  border-bottom: 3px solid transparent;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover,
-.nav-tabs > .active > a:focus { color: rgba(58,144,216,1); }
+.nav-tabs > .active > a:focus { 
+  color: rgba(58,144,216,1);
+  border-bottom-color: rgba(236,238,241,1); 
+}
 .nav-pills > li > a {
   background-color: rgba(246,247,249,1);
   border-radius: 2px;
