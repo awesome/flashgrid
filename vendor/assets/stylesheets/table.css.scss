@@ -42,7 +42,10 @@ table {
   font-size: 14px;
   padding: 5px 5px 3px 5px;
 }
-.table-condensed th { font-size: 12px; }
+.table-condensed th { 
+  font-size: 12px;
+  padding: 5px; 
+}
 .table-bordered {
   border: 1px solid rgba(217,222,225,1);
   border-collapse: separate;

@@ -47,6 +47,7 @@ Add the CSS files you want to include:
 *= require placeholder.css
 *= require popover.css
 *= require progress.css
+*= require switch.css
 *= require tab.css
 *= require table.css
 *= require timepicker.css
@@ -66,6 +67,7 @@ Add the JS files you want to include:
 //= require file_input.js
 //= require map.js
 //= require modal.js
+//= require switch.js
 //= require tab.js
 //= require time_picker.js
 //= require tooltip.js

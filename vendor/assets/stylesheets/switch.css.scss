@@ -1,0 +1,73 @@
+/* Table of Contents
+==================================================
+#Switch */
+
+/* #Switch
+================================================== */
+.switch input[type=radio],
+.switch input[type=checkbox] { display: none; }
+.switch {
+  background: rgba(58,144,216,1); 
+  border-radius: 500px;
+  color: rgba(255,255,255,1);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 11px;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  line-height: 11px;
+  margin-top: -2px;
+  min-width: 64px;
+  overflow: hidden;
+  padding: 4px 0;
+  position: relative;
+  text-align: center;
+  text-rendering: geometricPrecision;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  vertical-align: middle;
+}
+.switch span,
+.switch label {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  height: 100%;
+  position: relative;
+}
+.switch label {
+  background: rgba(255,255,255,1);
+  border-radius: 500px;
+  margin-bottom: 0;
+     margin-top: 0;
+  padding-bottom: 4px;
+     padding-top: 4px;
+  text-align: center;
+  vertical-align: middle;
+  width: 20%;
+  z-index: 100;
+}
+.switch span {
+  padding-bottom: 5px;
+  padding-top: 3px;
+  text-align: center;
+  vertical-align: middle;
+  width: 40%;
+  z-index: 1;
+}
+.switch > div {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  width: 150%;
+}
+.switch > div.switch-off { left: -50%; }
+.switch > div.switch-on { left: 0%; }
+.switch > div.switch-animate {
+  -webkit-transition: left 0.5s;
+          transition: left 0.5s;
+}
