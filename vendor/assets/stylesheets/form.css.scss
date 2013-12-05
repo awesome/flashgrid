@@ -203,9 +203,11 @@ select:focus:invalid:focus { border-color: rgba(254,79,50,1); }
 	padding: 20px 0 0 0;
 }
 .form-footer li:first-child { margin-top: 10px; }
+.form-text-inline { margin-top: 22px; }
 
 /* #Media Queries
 ================================================== */
 @media only screen and (max-width: 767px) {
   input[type="submit"].form-button-inline { margin-top: 10px; }
+  .form-text-inline { margin-top: 0; }
 }
