@@ -8,7 +8,8 @@
 #Styles
 #Decorations
 #Transforms
-#Weights */
+#Weights
+#Displays */
 
 /* #Font-Face
 ================================================== */
@@ -146,3 +147,9 @@ blockquote small { color: rgba(158,171,179,1); }
 .text-normal { font-weight: normal; }
 .text-medium { font-weight: 500; }
 .text-bold   { font-weight: bold; }
+
+/* #Displays
+================================================== */
+.display-block        { display: block; }
+.display-inline       { display: inline; }
+.display-inline-block { display: inline-block; }

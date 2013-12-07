@@ -1,6 +1,8 @@
 /* Table of Contents
 ==================================================
-#Image */
+#Image
+#Image Sizes
+#Media Queries */
 
 /* #Image
 ================================================== */
@@ -22,9 +24,9 @@
 .img-placeholder i {
   color: rgba(71,74,84,1);
   display: block;
-  font-size: 64px;
-  line-height: 64px;
-  margin: -42px 0 15px 0;
+  font-size: 72px;
+  line-height: 72px;
+  margin: -40px 0 5px 0;
 }
 img {
   border-radius: 3px;
@@ -36,4 +38,63 @@ img {
   width: auto\9;
 }
 .img-circle { border-radius: 500px; }
+.img-icon { max-width: 100%; }
 .img-center { margin: 0 auto; }
+
+/* #Image Sizes
+================================================== */
+.container .one.column .img-placeholder,
+.container .one.columns .img-placeholder { font-size: 0; }
+.container .one.column .img-placeholder i,
+.container .one.columns .img-placeholder i {
+  font-size: 28px;
+  line-height: 28px;
+  margin: -14px 0 0 0;
+}
+.container .three.columns .img-placeholder i {
+  font-size: 84px;
+  line-height: 84px;
+  margin-top: -46px;
+}
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+  .container .two.columns .img-placeholder i {
+    font-size: 58px;
+    line-height: 58px;
+    margin-top: -36px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .container .two.columns .img-placeholder { font-size: 0; }
+  .container .one.column .img-placeholder i,
+  .container .one.columns .img-placeholder i {
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: -8px;
+  }
+  .container .two.columns .img-placeholder i {
+    font-size: 48px;
+    line-height: 48px;
+    margin-top: -24px;
+  }
+  .container .three.columns .img-placeholder i {
+    font-size: 72px;
+    line-height: 72px;
+    margin-top: -42px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container .one.column .img-placeholder,
+  .container .one.columns .img-placeholder { font-size: 13px; }
+  .container .one.column .img-placeholder i,
+  .container .one.columns .img-placeholder i,
+  .container .two.columns .img-placeholder i,
+  .container .three.columns .img-placeholder i {
+    font-size: 144px;
+    line-height: 144px;
+    margin: -70px 0 5px 0;
+  }
+  .img-icon { max-width: 80px; }
+}

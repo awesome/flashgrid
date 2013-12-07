@@ -170,6 +170,15 @@ input.btn-block {
 .btn-group > .btn.active { z-index: 2; }
 .btn-group .dropdown-toggle:active,
 .btn-group.open .dropdown-toggle { outline: 0; }
+.btn-group-outline > .btn {
+  border-width: 1px;
+  margin-left: -1px;
+}
+.btn-group-outline > .btn:first-child { margin-left: 0; }
+.btn-group-outline > .btn:last-child,
+.btn-group-outline > .dropdown-toggle { border-right: 1px solid rgba(229,230,234,1); }
+.btn-group-outline > .btn:last-child:hover,
+.btn-group-outline > .dropdown-toggle:hover { border-right: 1px solid rgba(199,200,204,1); }
 
 /* #Button Toolbar
 ================================================== */

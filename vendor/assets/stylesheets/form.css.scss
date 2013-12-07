@@ -163,11 +163,17 @@ select:focus:invalid {
 input:focus:invalid:focus,
 textarea:focus:invalid:focus,
 select:focus:invalid:focus { border-color: rgba(254,79,50,1); }
-.form-header h2 {
+.form-header {
   border-bottom: 1px solid rgba(236,238,241,1);
   margin-bottom: 30px;
   padding-bottom: 5px;
 }
+.form-header h1,
+.form-header h2,
+.form-header h3,
+.form-header h4,
+.form-header h5,
+.form-header h6 { margin-bottom: 0; }
 .form-error-messages { margin-bottom: 40px; }
 .form-error-messages h4 {
   background-color: rgba(236,238,241,1);
@@ -191,6 +197,7 @@ select:focus:invalid:focus { border-color: rgba(254,79,50,1); }
   display: inline-block;
   margin-right: 10px;
 }
+.form-text-inline { margin-top: 22px; }
 .form-help-block {
   color: rgba(158,171,179,1);
   display: block;
@@ -203,7 +210,6 @@ select:focus:invalid:focus { border-color: rgba(254,79,50,1); }
 	padding: 20px 0 0 0;
 }
 .form-footer li:first-child { margin-top: 10px; }
-.form-text-inline { margin-top: 22px; }
 
 /* #Media Queries
 ================================================== */

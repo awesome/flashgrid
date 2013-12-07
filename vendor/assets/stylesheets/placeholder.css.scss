@@ -1,11 +1,27 @@
 /* Table of Contents
 ==================================================
-#Placeholder */
+#Placeholder
+#Media Queries */
 
 /* #Placeholder
 ================================================== */
-.placeholder i { font-size: 144px; }
-.placeholder i.text-center {
-	display: block;
-	text-align: center;
+.placeholder { text-align: center; }
+.placeholder i {
+  background: rgba(58,144,216,1);
+  border-radius: 500px;
+  color: rgba(255,255,255,1);
+  font-size: 86px;
+  padding: 20px 31px;
+}
+.placeholder-divider {
+  background-color: rgba(236,238,241,1);
+  border-radius: 500px;
+  height: 8px;
+  margin: 20px auto;
+  width: 50%;
+}
+/* #Media Queries
+================================================== */
+@media only screen and (max-width: 767px) {
+  .placeholder-divider { width: 75%; }
 }
