@@ -20,7 +20,7 @@ $('input[type=file].btn-file').each(function(i,elem){
 
   // Now we're going to replace that input field with a Bootstrap button.
   // The input will actually still be there, it will just be float above and transparent (done with the CSS).
-  $(elem).replaceWith('<a class="file-input-wrapper btn btn-block">'+buttonWord+input+'</a>');
+  $(elem).replaceWith('<a class="btn btn-small btn-block btn-file">'+buttonWord+input+'</a>');
 })
 // After we have found all of the file inputs let's apply a listener for tracking the mouse movement.
 // This is important because the in order to give the illusion that this is a button in FF we actually need to move the button from the file input under the cursor. Ugh.
@@ -28,7 +28,7 @@ $('input[type=file].btn-file').each(function(i,elem){
 
   // As the cursor moves over our new Bootstrap button we need to adjust the position of the invisible file input Browse button to be under the cursor.
   // This gives us the pointer cursor that FF denies us
-  $('.file-input-wrapper').mousemove(function(cursor) {
+  $('.btn-file').mousemove(function(cursor) {
 
     var input, wrapper,
       wrapperX, wrapperY,
@@ -64,11 +64,11 @@ $('input[type=file].btn-file').each(function(i,elem){
     });
   });
 
-  $('.file-input-wrapper input[type=file]').change(function(){
+  $('.btn-file input[type=file]').change(function(){
 
     // Remove any previous file names
-    $(this).parent().next().has('file-input-name').remove();
-    $(this).parent().after('<span class="file-input-name">'+$(this).val()+'</span>');
+    $(this).parent().next().has('btn-file-name').remove();
+    $(this).parent().after('<span class="btn-file-name">'+$(this).val()+'</span>');
 
   });
 
@@ -79,9 +79,8 @@ $('input[type=file].btn-file').each(function(i,elem){
 // Add the styles before the first stylesheet
 // This ensures they can be easily overridden with developer styles
 var cssHtml = '<style>'+
-  '.file-input-wrapper { overflow: hidden; position: relative; cursor: pointer; z-index: 1; }'+
-  '.file-input-wrapper input[type=file], .file-input-wrapper input[type=file]:focus, .file-input-wrapper input[type=file]:hover { position: absolute; top: 0; left: 0; cursor: pointer; opacity: 0; filter: alpha(opacity=0); z-index: 99; outline: 0; }'+
-  '.file-input-name { margin-left: 8px; }'+
+  '.btn-file { overflow: hidden; position: relative; cursor: pointer; z-index: 1; }'+
+  '.btn-file input[type=file], .btn-file input[type=file]:focus, .btn-file input[type=file]:hover { position: absolute; top: 0; left: 0; cursor: pointer; opacity: 0; filter: alpha(opacity=0); z-index: 99; outline: 0; }'+
   '</style>';
 $('link[rel=stylesheet]').eq(0).before(cssHtml);
 
