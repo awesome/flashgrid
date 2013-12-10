@@ -81,6 +81,7 @@ $('input[type=file].btn-file').each(function(i,elem){
 var cssHtml = '<style>'+
   '.btn-file { overflow: hidden; position: relative; cursor: pointer; z-index: 1; }'+
   '.btn-file input[type=file], .btn-file input[type=file]:focus, .btn-file input[type=file]:hover { position: absolute; top: 0; left: 0; cursor: pointer; opacity: 0; filter: alpha(opacity=0); z-index: 99; outline: 0; }'+
+  '.btn-file-name { margin-left: 8px; }'+
   '</style>';
 $('link[rel=stylesheet]').eq(0).before(cssHtml);
 
