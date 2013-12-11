@@ -23,7 +23,7 @@ label {
   display: block;
   font-size: 14px;
   font-weight: bold;
-  margin: 5px 0 10px 0;
+  margin: 5px 0 5px 0;
 }
 textarea,
 input[type="text"],
@@ -51,7 +51,7 @@ input[type="color"],
   color: rgba(43,50,53,1);
   display: block;
   font-size: 16px;
-  margin: -5px 0 10px 0;
+  margin-bottom: 5px;
   padding: 13px 0 10px 0;
   text-indent: 10px;
   -webkit-transition: border linear 0.2s;
@@ -60,7 +60,6 @@ input[type="color"],
   vertical-align: middle;
 }
 textarea { height: 140px; }
-.textarea-large { height: 200px; }
 textarea:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
@@ -89,12 +88,6 @@ input[type="checkbox"] {
   margin-top: 1px \9;
   line-height: normal;
 }
-input[type="submit"] { margin-top: 10px; }
-input[type="submit"].form-button-inline { 
-  margin-top: -5px;
-  padding-bottom: 13px;
-  padding-top: 12px; 
-}
 input[type="file"],
 input[type="image"],
 input[type="submit"],
@@ -117,14 +110,13 @@ select {
   border-radius: 2px;
   color: rgba(33,40,43,1);
 	font-size: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   padding: 13px 0 10px 15px;
   text-indent: 0;
   text-transform: capitalize;
   width: 100%;
   vertical-align: middle;
 }
-.form-select-inline { margin-top: -5px; }
 select[multiple] {
   border-radius: 2px;
   padding-left: 10px;
@@ -193,16 +185,23 @@ select:focus:invalid:focus { border-color: rgba(254,79,50,1); }
 .form-error-messages li:first-child { padding-top: 10px; }
 .form-error-messages li:last-child { padding-bottom: 10px; }
 .form-img { margin-top: -5px; }
+.form-textarea-large { height: 200px; }
 .form-input-inline {
   display: inline-block;
   margin-right: 10px;
 }
-.form-text-inline { margin-top: 22px; }
+.form-text-inline { margin-top: 13px; }
+.form-select-inline { margin-top: 0px; }
 .form-help-block {
   color: rgba(158,171,179,1);
   display: block;
   font-size: 12px;
-  margin: -5px 0 15px 0;
+  margin-bottom: 15px;
+}
+.form-button-inline { 
+  margin-top: 2px;
+  padding-bottom: 13px;
+  padding-top: 12px; 
 }
 .form-footer {
 	border-top: 1px solid rgba(236,238,241,1);
@@ -214,6 +213,6 @@ select:focus:invalid:focus { border-color: rgba(254,79,50,1); }
 /* #Media Queries
 ================================================== */
 @media only screen and (max-width: 767px) {
-  input[type="submit"].form-button-inline { margin-top: 10px; }
+  .form-button-inline { margin-top: 15px; }
   .form-text-inline { margin-top: 0; }
 }

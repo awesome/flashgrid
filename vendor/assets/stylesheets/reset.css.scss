@@ -31,13 +31,12 @@ abbr, acronym {
 }
 sup { vertical-align: text-top; }
 sub { vertical-align: text-bottom; }
-input, textarea, select {
+button, input, textarea, select {
   font-family: inherit;
   font-size: inherit;
+  *font-size: 100%;
   font-weight: inherit;
 }
-input, textarea, select { *font-size: 100%; }
-legend { color: rgba(0,0,0,1); }
 html,
 body {
   color: rgba(43,50,53,1);
