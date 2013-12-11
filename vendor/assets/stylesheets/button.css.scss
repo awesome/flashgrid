@@ -68,7 +68,6 @@ input.btn-block {
    padding-left: 0;
   width: 100%;
 }
-.btn-center { margin: 0 auto; }
 
 /* #Button Colors
 ================================================== */
@@ -96,10 +95,14 @@ input.btn-block {
 .btn-link {
   background: none;
   border: none;
+  color: rgba(174,182,192,1);
   margin-top: 12px;
   padding: 0;
 }
-.btn-link:hover { background: none; }
+.btn-link:hover { 
+  background: none;
+  color: rgba(71,74,84,1);
+}
 .btn-link.btn-large { margin-top: 17px; }
 .btn-link.btn-small { margin-top: 8px; }
 .btn-link.btn-mini { margin-top: 6px; }
