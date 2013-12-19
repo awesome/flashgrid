@@ -6,6 +6,7 @@
 #Button Links
 #Button Icons
 #Button Outlines
+#Button Styles
 #Button Group
 #Button Toolbar */
 
@@ -151,6 +152,10 @@ input.btn-block {
 .btn-large.btn-icon.btn-outline { padding: 11px 13px 11px 13px; }
 .btn-small.btn-icon.btn-outline { padding: 6px 7px 6px 6px; }
 .btn-mini.btn-icon.btn-outline { padding: 4px 6px 4px 6px; }
+
+/* #Button Styles
+================================================== */
+.btn-round { border-radius: 500px; }
 
 /* #Button Group
 ================================================== */

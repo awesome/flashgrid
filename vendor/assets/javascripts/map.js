@@ -1,3 +1,23 @@
+(function(root, factory) {
+  if(typeof exports === 'object') {
+    module.exports = factory();
+  }
+  else if(typeof define === 'function' && define.amd) {
+    define('GMaps', [], factory);
+  }
+
+  root.GMaps = factory();
+
+}(this, function() {
+
+/*!
+ * GMaps.js v0.4.9
+ * http://hpneo.github.com/gmaps/
+ *
+ * Copyright 2013, Gustavo Leon
+ * Released under the MIT License.
+ */
+
 if (!(typeof window.google === 'object' && window.google.maps)) {
   throw 'Google Maps API is required. Please register the following JavaScript library http://maps.google.com/maps/api/js?sensor=true.'
 }
@@ -390,7 +410,9 @@ var GMaps = (function(global) {
           i;
 
       for (i = 0; i < markers_length; i++) {
-        latLngs.push(this.markers[i].getPosition());
+        if(typeof(this.markers[i].visible) === 'boolean' && this.markers[i].visible) {
+          latLngs.push(this.markers[i].getPosition());
+        }
       }
 
       this.fitLatLngBounds(latLngs);
@@ -1739,6 +1761,10 @@ GMaps.staticMapURL = function(options){
     parameters.push('path=' + encodeURI(polyline));
   }
 
+  /** Retina support **/
+  var dpi = window.devicePixelRatio || 1;
+  parameters.push('scale=' + dpi);
+
   parameters = parameters.join('&');
   return static_root + parameters;
 };
@@ -2034,3 +2060,6 @@ if (!Array.prototype.indexOf) {
       return -1;
   }
 }
+  
+return GMaps;
+}));

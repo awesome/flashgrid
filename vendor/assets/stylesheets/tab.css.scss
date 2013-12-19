@@ -48,7 +48,7 @@
 }
 .nav-list > li > a {
   color: rgba(158,171,179,1);
-  padding: 11px 15px 8px 15px;
+  padding: 11px 15px 11px 15px;
   font-weight: bold;
 }
 .nav-list > li > a:hover { background-color: rgba(236,238,241,1); }
@@ -61,7 +61,7 @@
 .nav-list .divider {
   background-color: rgba(236,238,241,1);
   height: 1px;
-  margin: 10px 0 8px 0;
+  margin: 10px 0 10px 0;
   overflow: hidden;
 }
 .nav-tabs:before,
@@ -93,7 +93,7 @@
   border-radius: 2px;
   color: rgba(158,171,179,1);
   margin-right: 3px;
-  padding: 9px 10px 8px 10px;
+  padding: 9px 10px 9px 10px;
 }
 .nav-pills > li > a:hover { background-color: rgba(236,238,241,1); }
 .nav-pills > .active > a,
@@ -108,7 +108,7 @@
 .nav-tabs.nav-stacked > li > a {
   background-color: rgba(246,247,249,1);
   color: rgba(158,171,179,1);
-  padding: 9px 10px 8px 10px;
+  padding: 10px 10px 8px 10px;
 }
 .nav-tabs.nav-stacked > li:first-child > a {
   border-top-right-radius: 3px;
@@ -129,8 +129,13 @@
 .nav-tabs.nav-stacked > .active > a:focus {
   background-color: rgba(58,144,216,1);
   color: rgba(255,255,255,1);
+  border-bottom: 0;
+  padding: 10px 10px 10px 10px;
 }
-.nav-pills.nav-stacked > li > a { margin-bottom: 3px; }
+.nav-pills.nav-stacked > li > a { 
+  margin-bottom: 3px;
+  padding: 10px 10px 10px 10px;
+}
 .nav-pills.nav-stacked > li:last-child > a { margin-bottom: 0; }
 .nav-tabs .open .dropdown-toggle,
 .nav-pills .open .dropdown-toggle,
