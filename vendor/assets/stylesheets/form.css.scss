@@ -59,7 +59,10 @@ input[type="color"],
   width: 100%;
   vertical-align: middle;
 }
-textarea { height: 140px; }
+textarea {
+  height: 140px;
+  line-height: 22px;
+}
 textarea:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
