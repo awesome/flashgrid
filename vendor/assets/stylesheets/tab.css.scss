@@ -54,7 +54,7 @@
 .nav-list > li > a:hover { background-color: rgba(236,238,241,1); }
 .nav-list > .active > a,
 .nav-list > .active > a:hover,
-.nav-list > .active > a:focus { 
+.nav-list > .active > a:focus {
   background-color: rgba(246,247,249,1);
   color: rgba(71,74,84,1);
 }
@@ -84,10 +84,11 @@
 }
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover,
-.nav-tabs > .active > a:focus { 
+.nav-tabs > .active > a:focus {
   color: rgba(58,144,216,1);
-  border-bottom-color: rgba(236,238,241,1); 
+  border-bottom-color: rgba(236,238,241,1);
 }
+.nav-tabs .open a.dropdown-toggle { background-color: transparent; }
 .nav-pills > li > a {
   background-color: rgba(246,247,249,1);
   border-radius: 2px;
@@ -132,7 +133,7 @@
   border-bottom: 0;
   padding: 10px 10px 10px 10px;
 }
-.nav-pills.nav-stacked > li > a { 
+.nav-pills.nav-stacked > li > a {
   margin-bottom: 3px;
   padding: 10px 10px 10px 10px;
 }
