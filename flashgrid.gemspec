@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'flashoff/version'
+require 'flashgrid/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "flashoff"
-  spec.version       = Flashoff::VERSION
+  spec.name          = "flashgrid"
+  spec.version       = Flashgrid::VERSION
   spec.authors       = ["Juan Gomez"]
   spec.email         = ["j.gomez@drexed.com"]
-  spec.description   = %q{Flashoff is a refreshingly modern responsive web framework for beautiful and faster project development.}
-  spec.summary       = %q{Flashoff Responsive Web Framework}
-  spec.homepage      = "http://quantum.drexed.com"
+  spec.description   = %q{Flashgrid is a refreshingly modern responsive web framework for beautiful and faster project development.}
+  spec.summary       = %q{Flashgrid Responsive Web Framework}
+  spec.homepage      = "http://flashgrid.drexed.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

@@ -13,5 +13,5 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.3)
-  flashoff!
+  flashgrid!
   rake

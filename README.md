@@ -1,14 +1,14 @@
-# Flashoff
+# Flashgrid
 
-[Flashoff](http://flashoff.drexed.com) is a refreshingly modern responsive web framework for beautiful and faster project development.
+[Flashgrid](http://flashgrid.drexed.com) is a refreshingly modern responsive web framework for beautiful and faster project development.
 
-To get started, check out [http://flashoff.drexed.com](http://flashoff.drexed.com)!
+To get started, check out [http://flashgrid.drexed.com](http://flashgrid.drexed.com)!
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'flashoff'
+    gem 'flashgrid'
 
 And then execute:
 
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install flashoff
+    $ gem install flashgrid
 
 ## Usage
 
@@ -25,6 +25,7 @@ Add the CSS files you want to include:
 ```ruby
 *= require reset.css
 *= require ad.css
+*= require affix.css
 *= require alert.css
 *= require breadcrumb.css
 *= require button.css
@@ -60,6 +61,7 @@ Add the CSS files you want to include:
 Add the JS files you want to include:
 
 ```ruby
+//= require affix.js
 //= require alert.js
 //= require collapse.js
 //= require date_picker.js

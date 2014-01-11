@@ -10,16 +10,16 @@
   color: rgba(71,74,84,1);
   font-size: 16px;
   margin: -40px 0 40px 0;
-  padding: 12px 20px 10px 20px;
+  padding: 11px 20px 11px 20px;
 }
 .alert,
 .alert h4 { color: rgba(71,74,84,1); }
 .alert h4 { margin: 0; }
-.alert p { 
+.alert p {
   color: rgba(43,50,53,1);
   margin-bottom: 0;
 }
-.alert a { 
+.alert a {
   color: rgba(43,50,53,1);
   font-weight: 500;
   opacity: 0.8;
@@ -30,7 +30,6 @@
   float: right;
   font-size: 18px;
   line-height: 18px;
-  position: relative;
 }
 .alert .close:hover,
 .alert .close:focus {
@@ -53,6 +52,21 @@
   background-color: rgba(242,222,222,1);
   border-color: rgba(228,201,205,1);
 }
+.alert-black,
+.alert-system {
+  background-color: rgba(71,74,84,1);
+  border-color: rgba(61,64,74,1);
+  color: rgba(255,255,255,1);
+}
+.alert-black h4,
+.alert-black p,
+.alert-system h4,
+.alert-system p,
+.alert-black .close:hover,
+.alert-black .close:focus,
+.alert-system .close:hover,
+.alert-system .close:focus { color: rgba(255,255,255,1); }
 .alert-block > p,
 .alert-block > ul { margin-bottom: 0; }
 .alert-block p + p { margin-top: 5px; }
+.alert-pull-none { margin: 0; }
