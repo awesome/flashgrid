@@ -35,12 +35,12 @@
 .datepicker.datepicker-orient-bottom:before {
   bottom: -7px;
   border-bottom: 0;
-  border-top: 7px solid rgba(246,247,249,1);
+     border-top: 7px solid rgba(246,247,249,1);
 }
 .datepicker.datepicker-orient-bottom:after {
   bottom: -6px;
   border-bottom: 0;
-  border-top: 6px rgba(246,247,249,1);
+     border-top: 6px rgba(246,247,249,1);
 }
 .dow { font-weight: bold; }
 .datepicker > div { display: none; }
@@ -48,21 +48,25 @@
   margin: 0;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   width: 100%;
 }
-.datepicker td,
 .datepicker th {
   height: 20px;
   text-align: center;
   width: 20px;
 }
+.datepicker td {
+  height: 22px;
+  line-height: 16px;
+  text-align: center;
+  width: 20px;
+}
 .datepicker td.day:hover {
   background-color: rgba(58,144,216,1);
-  border-radius: 2px;
+  border-radius: 500px;
   color: rgba(255,255,255,1);
   cursor: pointer;
 }
@@ -82,8 +86,8 @@
 .datepicker td.active:hover.disabled,
 .datepicker td.active[disabled],
 .datepicker td.active:hover[disabled] {
-  background-color: rgba(254,79,50,1);
-  border-radius: 2px;
+  background-color: rgba(122,179,23,1);
+  border-radius: 500px;
   color: rgba(255,255,255,1);
 }
 .datepicker td span {
@@ -120,3 +124,4 @@
   color: rgba(255,255,255,1);
   cursor: pointer;
 }
+.datepicker-dropdown.dropdown-menu { padding: 0; }
