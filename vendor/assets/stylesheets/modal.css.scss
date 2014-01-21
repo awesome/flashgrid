@@ -96,6 +96,7 @@
   vertical-align: middle;
   width: 100%;
 }
+.modal-footer-btn[disabled] { color: rgba(158,171,179,1); }
 .modal-footer-btn-left {
   border-right: 1px solid rgba(217,222,225,1);
   border-bottom-right-radius: 0;

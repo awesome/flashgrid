@@ -18,7 +18,7 @@
   background: rgba(236,238,241,1);
   border: none;
   border-bottom: 1px solid rgba(196,198,201,1);
-  border-radius: 3px;
+  border-radius: 2px;
   color: rgba(71,74,84,1);
   cursor: pointer;
   display: inline-block;
@@ -39,22 +39,27 @@
   -webkit-transition: all 0.1s linear;
           transition: all 0.1s linear;
 }
+.btn[disabled],
+.btn[disabled]:hover {
+  color: rgba(158,171,179,1);
+  background: rgba(246,248,251,1);
+  border-color: rgba(206,208,211,1);
+}
 
 /* #Button Sizes
 ================================================== */
 .btn-large {
+  border-radius: 3px;
   font-size: 15px;
   line-height: 15px;
   padding: 15px 30px;
 }
 .btn-small {
-  border-radius: 2px;
   font-size: 11px;
   line-height: 11px;
   padding: 8px 15px;
 }
 .btn-mini {
-  border-radius: 2px;
   font-size: 9px;
   line-height: 9px;
   padding: 6px 10px;
@@ -75,22 +80,40 @@ input.btn-block {
 ================================================== */
 .btn-blue,
 .btn-green,
-.btn-red { color: rgba(255,255,255,1); }
+.btn-red,
+.btn-blue[disabled],
+.btn-green[disabled],
+.btn-red[disabled] { color: rgba(255,255,255,1); }
 .btn-blue {
   background: rgba(85,115,194,1);
   border-color: rgba(25,55,134,1);
 }
 .btn-blue:hover { background: rgba(70,100,179,1); }
+.btn-blue[disabled],
+.btn-blue[disabled]:hover {
+  background: rgba(125,155,234,1);
+  border-color: rgba(75,105,184,1);
+}
 .btn-green {
   background: rgba(75,180,122,1);
   border-color: rgba(25,130,72,1);
 }
 .btn-green:hover { background: rgba(65,170,112,1); }
+.btn-green[disabled],
+.btn-green[disabled]:hover {
+  background: rgba(105,210,152,1);
+  border-color: rgba(55,160,132,1);
+}
 .btn-red {
   background: rgba(220,74,56,1);
   border-color: rgba(180,34,16,1);
 }
 .btn-red:hover { background: rgba(210,64,46,1); }
+.btn-red[disabled],
+.btn-red[disabled]:hover {
+  background: rgba(240,94,76,1);
+  border-color: rgba(200,54,36,1);
+}
 
 /* #Button Links
 ================================================== */
@@ -145,6 +168,12 @@ input.btn-block {
   background: transparent;
   border-color: rgba(199,200,204,1);
   color: rgba(71,74,84,1);
+}
+.btn-outline[disabled],
+.btn-outline[disabled]:hover {
+  background: transparent;
+  border-color: rgba(239,240,244,1);
+  color: rgba(194,202,212,1);
 }
 .btn-large.btn-outline { padding: 14px 29px 16px 29px; }
 .btn-small.btn-outline { padding: 7px 14px 8px 14px; }

@@ -151,7 +151,15 @@ select:focus:invalid {
 input:focus:invalid:focus,
 textarea:focus:invalid:focus,
 select:focus:invalid:focus { border-color: rgba(254,79,50,1); }
-input[disabled] { background-color: rgba(246,247,249,1); }
+input[disabled],
+textarea[disabled],
+select[disabled],
+.uneditable-input {
+  background-color: rgba(246,247,249,1);
+  color: rgba(158,171,179,1);
+  font-weight: 200;
+}
+.uneditable-input { font-weight: normal; }
 .form-header {
   border-bottom: 1px solid rgba(236,238,241,1);
   margin-bottom: 30px;
