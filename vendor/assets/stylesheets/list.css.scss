@@ -18,11 +18,16 @@ ol { padding-left: 23px; }
   list-style-type: none;
   padding: 0;
 }
-.list-inline li {
+.list-inline > li {
   display: inline-block;
   margin-right: 10px;
 }
-.list-inline li:last-child { margin-right: 0; }
+.list-inline > li:last-child { margin-right: 0; }
+.list-scrollable {
+  max-height: 200px;
+  max-width: 100%;
+  overflow: scroll;
+}
 dl dt,
 dl dd {
   font-size: 16px;

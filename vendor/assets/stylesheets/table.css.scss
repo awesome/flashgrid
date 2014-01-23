@@ -1,6 +1,7 @@
 /* Table of Contents
 ==================================================
-#Table */
+#Table
+#Media Queries */
 
 /* #Table
 ================================================== */
@@ -42,9 +43,9 @@ table {
   font-size: 14px;
   padding: 5px 5px 3px 5px;
 }
-.table-condensed th { 
+.table-condensed th {
   font-size: 12px;
-  padding: 5px; 
+  padding: 5px;
 }
 .table-bordered {
   border: 1px solid rgba(217,222,225,1);
@@ -71,3 +72,13 @@ table {
 .table-unbordered tbody,
 .table-unbordered th,
 .table-unbordered td { border: 0; }
+
+/* #Media Queries
+================================================== */
+@media only screen and (max-width: 767px) {
+  .table-responsive {
+    max-height: 200px;
+    max-width: 100%;
+    overflow: scroll;
+  }
+}

@@ -36,6 +36,11 @@ pre {
   word-wrap: break-word;
   white-space: pre;
 }
+.pre-scrollable {
+  max-height: 200px;
+  max-width: 100%;
+  overflow: scroll;
+}
 
 /* #Pygments
 ================================================== */
