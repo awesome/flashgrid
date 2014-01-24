@@ -72,13 +72,16 @@ table {
 .table-unbordered tbody,
 .table-unbordered th,
 .table-unbordered td { border: 0; }
+.table-scrollable {
+  height: 200px;
+  overflow: auto;
+}
 
 /* #Media Queries
 ================================================== */
 @media only screen and (max-width: 767px) {
   .table-responsive {
-    max-height: 200px;
-    max-width: 100%;
-    overflow: scroll;
+    height: 200px;
+    overflow: auto;
   }
 }

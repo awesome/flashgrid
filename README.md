@@ -45,6 +45,7 @@ Add the CSS files you want to include:
 *= require map.css
 *= require modal.css
 *= require pagination.css
+*= require panel.css
 *= require placeholder.css
 *= require popover.css
 *= require progress.css
