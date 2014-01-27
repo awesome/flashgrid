@@ -83,10 +83,10 @@ input.btn-block {
 .btn-green,
 .btn-red { color: rgba(255,255,255,1); }
 .btn-black {
-  background: rgba(71,74,84,1);
-  border-color: rgba(21,24,34,1);
+  background: rgba(61,64,74,1);
+  border-color: rgba(11,14,24,1);
 }
-.btn-black:hover { background: rgba(61,64,74,1); }
+.btn-black:hover { background: rgba(51,54,64,1); }
 .btn-black[disabled],
 .btn-black[disabled]:hover {
   background: rgba(101,104,114,1);
@@ -202,6 +202,10 @@ input.btn-block {
 .btn-large.btn-icon.btn-outline { padding: 11px 13px 11px 13px; }
 .btn-small.btn-icon.btn-outline { padding: 6px 7px 6px 6px; }
 .btn-mini.btn-icon.btn-outline { padding: 4px 6px 4px 6px; }
+.btn-outline-black {
+  border-color: rgba(71,74,84,1);
+  color: rgba(71,74,84,1);
+}
 .btn-outline-blue {
   border-color: rgba(58,144,216,1);
   color: rgba(58,144,216,1);
@@ -213,6 +217,10 @@ input.btn-block {
 .btn-outline-red {
   border-color: rgba(220,74,56,1);
   color: rgba(220,74,56,1);
+}
+.btn-outline-white {
+  border-color: rgba(255,255,255,1);
+  color: rgba(225,255,255,1);
 }
 
 /* #Button Styles
@@ -234,7 +242,7 @@ input.btn-block {
   border-radius: 0;
   position: relative;
 }
-.btn-group > .btn-black { border-color: rgba(21,24,34,1); }
+.btn-group > .btn-black { border-color: rgba(11,14,24,1); }
 .btn-group > .btn-blue  { border-color: rgba(25,55,134,1); }
 .btn-group > .btn-green { border-color: rgba(25,130,72,1); }
 .btn-group > .btn-red   { border-color: rgba(180,34,16,1); }
