@@ -237,6 +237,10 @@ input.btn-block {
   vertical-align: middle;
 }
 .btn-group + .btn-group { margin-left: 5px; }
+.btn-group.pull-right + .btn-group.pull-right {
+  margin-left: 0;
+  margin-right: 10px;
+}
 .btn-group > .btn {
   border-right: 1px solid rgba(196,198,201,1);
   border-radius: 0;

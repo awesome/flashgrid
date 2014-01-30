@@ -134,9 +134,10 @@ blockquote small { color: rgba(158,171,179,1); }
 
 /* #Alignments
 ================================================== */
-.text-left   { text-align: left; }
-.text-center { text-align: center; }
-.text-right  { text-align: right; }
+.text-left    { text-align: left; }
+.text-center  { text-align: center; }
+.text-justify { text-align: justify; }
+.text-right   { text-align: right; }
 
 /* #Colors
 ================================================== */
@@ -149,6 +150,7 @@ blockquote small { color: rgba(158,171,179,1); }
 
 /* #Scripts
 ================================================== */
+.text-monospace  { font-family: Monaco, Menlo, Consolas, "Courier New", monospace; }
 .text-sans-serif { font-family: 'Gotham', 'Helvetica', Helvetica, Arial, sans-serif; }
 .text-serif      { font-family: 'Times New Roman', Times, serif; }
 
@@ -165,8 +167,9 @@ blockquote small { color: rgba(158,171,179,1); }
 
 /* #Transform
 ================================================== */
-.text-uppercase { text-transform: uppercase; }
-.text-lowercase { text-transform: lowercase; }
+.text-capitalize { text-transform: capitalize; }
+.text-lowercase  { text-transform: lowercase; }
+.text-uppercase  { text-transform: uppercase; }
 
 /* #Weights
 ================================================== */
