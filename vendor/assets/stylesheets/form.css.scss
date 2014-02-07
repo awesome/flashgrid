@@ -104,6 +104,8 @@ select {
      -moz-appearance: none;
   border: 1px solid rgba(217,222,225,1);
   border-radius: 0;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
   color: rgba(33,40,43,1);
   font-size: 100%;
   margin-bottom: 5px;
@@ -126,6 +128,11 @@ input[type="checkbox"]:focus {
   outline: thin dotted rgba(0,0,0,1);
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
+}
+select.datetime {
+  margin-left: 0;
+  padding-right: 15px;
+  width: initial;
 }
 input:-moz-placeholder,
 textarea:-moz-placeholder {
