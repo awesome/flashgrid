@@ -167,6 +167,11 @@ select[disabled],
   font-weight: 200;
 }
 .uneditable-input { font-weight: normal; }
+input.form-input-initial-width,
+select.form-input-initial-width {
+  display: inline-block;
+  width: initial;
+}
 .form-header {
   border-bottom: 1px solid rgba(236,238,241,1);
   margin-bottom: 30px;
@@ -208,7 +213,7 @@ select[disabled],
 }
 .form-error-messages li:first-child { padding-top: 10px; }
 .form-error-messages li:last-child { padding-bottom: 10px; }
-.form-img { margin-top: -5px; }
+.form-textarea-small { height: 80px; }
 .form-textarea-large { height: 200px; }
 .form-input-inline {
   display: inline-block;

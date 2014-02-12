@@ -1,14 +1,16 @@
 /* Table of Contents
 ==================================================
-#Timepicker
-#Media Queries */
+#Timepicker */
 
 /* #Timepicker
 ================================================== */
 .timepicker { position: relative; }
 .timepicker .add-on i { display: inline-block; }
 .timepicker-widget.dropdown-menu { padding: 5px 1px 5px 0; }
-.timepicker-widget.dropdown-menu.open { display: inline-block; }
+.timepicker-widget.dropdown-menu.open {
+  display: inline-block;
+  z-index: 1060;
+}
 .timepicker-widget.dropdown-menu:before {
   border-bottom: 7px solid rgba(246,247,249,1);
    border-right: 7px solid transparent;
@@ -70,12 +72,4 @@
   margin: 0;
   text-align: center;
   width: 25px;
-}
-.timepicker-widget .modal-content { padding: 4px; }
-
-/* #Media Queries
-================================================== */
-@media only screen and (max-width: 767px) {
-  .timepicker { width: 100%; }
-  .timepicker .dropdown-menu { width: 100%; }
 }
