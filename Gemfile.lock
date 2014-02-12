@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    flashgrid (1.0.0)
+    flashgrid (1.0.11)
 
 GEM
   remote: https://rubygems.org/
@@ -14,4 +14,4 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.3)
   flashgrid!
-  rake
+  rake (~> 10.1)
