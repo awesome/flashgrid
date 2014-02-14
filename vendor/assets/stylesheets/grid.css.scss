@@ -261,9 +261,11 @@
 .clearfix:before,
 .clearfix:after,
 .row:before,
+.row-small:before,
 .row-medium:before,
 .row-large:before,
 .row:after,
+.row-small:after,
 .row-medium:after,
 .row-large:after, {
   content: '\0020';
@@ -274,10 +276,12 @@
   width: 0;
 }
 .row:after,
+.row-small:after,
 .row-medium:after,
 .row-large:after,
 .clearfix:after { clear: both; }
 .row,
+.row-small,
 .row-medium,
 .row-large,
 .clearfix { zoom: 1; }

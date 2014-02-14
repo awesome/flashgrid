@@ -39,6 +39,17 @@
   top: -100%;
 }
 .modal.fade.in { top: 15%; }
+.modal-column {
+  display: block;
+  float: left;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+.modal-column.alpha { margin-left: 0; }
+.modal-column.omega { margin-right: 0; }
+.modal-one-quarter-column { width: 22.5%; }
+.modal-half-column { width: 47.5%; }
+.modal-three-quarters-column { width: 72.5%; }
 .modal-header {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -120,6 +131,10 @@ input[type="submit"].modal-footer-btn-right {
   .modal {
     margin-left: -150px;
     width: 300px;
+  }
+  .modal-column-responsive {
+    clear: both;
+    float: none;
   }
   .modal-body { max-height: 180px; }
   .modal-footer-btn-left,

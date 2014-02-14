@@ -19,6 +19,8 @@
   border: none;
   border-bottom: 1px solid rgba(196,198,201,1);
   border-radius: 2px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
   color: rgba(71,74,84,1);
   cursor: pointer;
   display: inline-block;
@@ -256,7 +258,6 @@ input.btn-block {
      border-top-left-radius: 2px;
   margin-left: 0;
 }
-.btn-group > .btn-small.dropdown-toggle { padding-bottom: 6px; }
 .btn-group > .btn:last-child,
 .btn-group > .dropdown-toggle {
   border-right: none;
