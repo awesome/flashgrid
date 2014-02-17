@@ -23,7 +23,6 @@ Or install it yourself as:
 Add the CSS files you want to include:
 
 ```ruby
-*= require reset.css
 *= require ad.css
 *= require affix.css
 *= require alert.css
@@ -47,8 +46,9 @@ Add the CSS files you want to include:
 *= require pagination.css
 *= require panel.css
 *= require placeholder.css
-*= require popover.css
+*= require popover.css (place after tooltip)
 *= require progress.css
+*= require reset.css (place before any files)
 *= require switch.css
 *= require tab.css
 *= require table.css
