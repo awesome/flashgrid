@@ -91,16 +91,18 @@
   color: rgba(255,255,255,1);
 }
 .datepicker td span {
+  border-radius: 500px;
   display: block;
-  height: 54px;
+  height: 46px;
   float: left;
-  line-height: 54px;
+  line-height: 46px;
   margin: 2px;
-  width: 47px;
+  width: 46px;
 }
 .datepicker td span:hover {
   background-color: rgba(58,144,216,1);
   color: rgba(255,255,255,1);
+  cursor: pointer;
 }
 .datepicker td span.active,
 .datepicker td span.active:hover,
@@ -109,7 +111,7 @@
 .datepicker td span.active.active,
 .datepicker td span.active.disabled,
 .datepicker td span.active[disabled] {
-  background-color: rgba(254,79,50,1);
+  background-color: rgba(122,179,23,1);
   color: rgba(255,255,255,1);
 }
 .datepicker th.switch {
