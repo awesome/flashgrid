@@ -108,7 +108,7 @@ select {
   color: rgba(33,40,43,1);
   font-size: 100%;
   margin-bottom: 5px;
-  padding: 13px 0 10px 15px;
+  padding: 13px 0 10px 10px;
   text-indent: 0;
   text-transform: capitalize;
   width: 100%;
@@ -163,6 +163,7 @@ select[disabled],
 .uneditable-input {
   background-color: rgba(246,247,249,1);
   color: rgba(158,171,179,1);
+  cursor: not-allowed;
 }
 .uneditable-input { font-weight: normal; }
 input.form-input-initial-width,
