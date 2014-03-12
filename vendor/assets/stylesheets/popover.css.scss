@@ -10,6 +10,7 @@
   border: 1px solid rgba(217,222,225,1);
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   display: none;
+  float: none;
   font-style: normal;
   letter-spacing: 0;
   left: 0;
@@ -20,7 +21,7 @@
   text-transform: none;
   top: 0;
   white-space: normal;
-  z-index: 1010;
+  z-index: 1060;
 }
 .popover.top { margin-top: -10px; }
 .popover.right { margin-left: 10px; }

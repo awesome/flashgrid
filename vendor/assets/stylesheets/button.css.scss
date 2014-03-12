@@ -158,12 +158,6 @@ input.btn-block {
   border-color: rgba(199,200,204,1);
   color: rgba(71,74,84,1);
 }
-.btn-outline[disabled],
-.btn-outline[disabled]:hover {
-  background: transparent;
-  border-color: rgba(239,240,244,1);
-  color: rgba(194,202,212,1);
-}
 .btn-large.btn-outline { padding: 14px 29px 16px 29px; }
 .btn-small.btn-outline { padding: 7px 14px 8px 14px; }
 .btn-mini.btn-outline { padding: 5px 14px 6px 14px; }

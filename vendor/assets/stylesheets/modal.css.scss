@@ -108,7 +108,10 @@ input[type="submit"].modal-footer-btn {
   width: 100%;
 }
 .modal-footer-btn[disabled],
-input[type="submit"].modal-footer-btn[disabled] { color: rgba(158,171,179,1); }
+input[type="submit"].modal-footer-btn[disabled] {
+  color: rgba(158,171,179,1);
+  cursor: not-allowed;
+}
 .modal-footer-btn-left,
 input[type="submit"].modal-footer-btn-left {
   border-right: 1px solid rgba(217,222,225,1);

@@ -15,11 +15,12 @@
   line-height: 17px;
   opacity: 0;
   filter: alpha(opacity=0);
+  float: none;
   position: absolute;
   text-decoration: none;
   text-transform: none;
   visibility: visible;
-  z-index: 1030;
+  z-index: 1070;
 }
 .tooltip.in {
   opacity: 0.8;
