@@ -17,7 +17,7 @@
   margin-right: 2px;
 }
 .pagination ul > li > a {
-  background-color: rgba(236,238,241,1);
+  background: rgba(236,238,241,1);
   border-radius: 500px;
   color: rgba(43,50,53,1);
   min-width: 8px;
@@ -26,9 +26,9 @@
   text-decoration: none;
 }
 .pagination ul > li > a:hover,
-.pagination ul > li > a:focus { background-color: rgba(226,228,231,1); }
+.pagination ul > li > a:focus { background: rgba(226,228,231,1); }
 .pagination ul > .active {
-  background-color: rgba(79,148,210,1);
+  background: rgba(79,148,210,1);
   border-radius: 500px;
   color: rgba(255,255,255,1);
   min-width: 8px;

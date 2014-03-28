@@ -5,7 +5,7 @@
 /* #Panel
 ================================================== */
 .panel {
-  background-color: rgba(255,255,255,1);
+  background: rgba(255,255,255,1);
   border: 1px solid rgba(217,222,225,1);
   border-radius: 3px;
   margin-bottom: 20px;
@@ -120,7 +120,7 @@
   margin-bottom: 0;
 }
 .panel-header {
-  background-color: rgba(236,238,241,1);
+  background: rgba(236,238,241,1);
   border-bottom: 1px solid rgba(217,222,225,1);
   border-top-right-radius: 3px;
    border-top-left-radius: 3px;
@@ -139,7 +139,7 @@
 .panel-title > a { color: rgba(71,74,84,1); }
 .panel-title > a:hover { color: rgba(58,144,216,1); }
 .panel-footer {
-  background-color: rgba(236,238,241,1);
+  background: rgba(236,238,241,1);
   border-top: 1px solid rgba(217,222,225,1);
   border-bottom-right-radius: 3px;
    border-bottom-left-radius: 3px;

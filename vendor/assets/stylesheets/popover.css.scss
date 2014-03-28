@@ -6,7 +6,7 @@
 ================================================== */
 .popover {
   background-clip: padding-box;
-  background-color: rgba(255,255,255,1);
+  background: rgba(255,255,255,1);
   border: 1px solid rgba(217,222,225,1);
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   display: none;
@@ -14,7 +14,8 @@
   font-style: normal;
   letter-spacing: 0;
   left: 0;
-  width: 276px;
+  max-width: 276px;
+  min-width: 236px;
   position: absolute;
   text-align: left;
   text-decoration: none;
@@ -28,7 +29,7 @@
 .popover.bottom { margin-top: 10px; }
 .popover.left { margin-left: -10px; }
 .popover-title {
-  background-color: rgba(236,238,241,1);
+  background: rgba(236,238,241,1);
   border-bottom: 1px solid rgba(217,222,225,1);
   color: rgba(71,74,84,1);
   font-size: 14px;
@@ -40,7 +41,7 @@
 }
 .popover-title:empty { display: none; }
 .popover-content {
-  background-color: rgba(255,255,255,1);
+  background: rgba(255,255,255,1);
   color: rgba(43,50,53,1);
   font-family: 'Gotham', 'Helvetica', Helvetica, Arial, sans-serif;
   font-size: 14px;

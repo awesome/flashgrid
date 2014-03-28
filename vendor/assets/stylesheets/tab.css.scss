@@ -25,7 +25,7 @@
   text-decoration: none;
 }
 .nav-header {
-  background-color: rgba(58,144,216,1);
+  background: rgba(58,144,216,1);
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   color: rgba(255,255,255,1);
@@ -51,15 +51,15 @@
   padding: 11px 15px 11px 15px;
   font-weight: bold;
 }
-.nav-list > li > a:hover { background-color: rgba(236,238,241,1); }
+.nav-list > li > a:hover { background: rgba(236,238,241,1); }
 .nav-list > .active > a,
 .nav-list > .active > a:hover,
 .nav-list > .active > a:focus {
-  background-color: rgba(246,247,249,1);
+  background: rgba(246,247,249,1);
   color: rgba(71,74,84,1);
 }
 .nav-list .divider {
-  background-color: rgba(236,238,241,1);
+  background: rgba(236,238,241,1);
   height: 1px;
   margin: 10px 0 10px 0;
   overflow: hidden;
@@ -88,26 +88,26 @@
   color: rgba(58,144,216,1);
   border-bottom-color: rgba(236,238,241,1);
 }
-.nav-tabs .open a.dropdown-toggle { background-color: transparent; }
+.nav-tabs .open a.dropdown-toggle { background: transparent; }
 .nav-pills > li > a {
-  background-color: rgba(246,247,249,1);
+  background: rgba(246,247,249,1);
   border-radius: 2px;
   color: rgba(158,171,179,1);
   margin-right: 3px;
   padding: 9px 10px 9px 10px;
 }
-.nav-pills > li > a:hover { background-color: rgba(236,238,241,1); }
+.nav-pills > li > a:hover { background: rgba(236,238,241,1); }
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover,
 .nav-pills > .active > a:focus {
-  background-color: rgba(58,144,216,1);
+  background: rgba(58,144,216,1);
   color: rgba(255,255,255,1);
 }
 .nav-stacked > li { float: none; }
 .nav-stacked > li > a { margin-right: 0; }
 .nav-tabs.nav-stacked { border-bottom: 0; }
 .nav-tabs.nav-stacked > li > a {
-  background-color: rgba(246,247,249,1);
+  background: rgba(246,247,249,1);
   color: rgba(158,171,179,1);
   padding: 10px 10px 8px 10px;
 }
@@ -121,14 +121,14 @@
 }
 .nav-tabs.nav-stacked > li > a:hover,
 .nav-tabs.nav-stacked > li > a:focus {
-  background-color: rgba(236,238,241,1);
+  background: rgba(236,238,241,1);
   color: rgba(71,74,84,1);
   z-index: 2;
 }
 .nav-tabs.nav-stacked > .active > a,
 .nav-tabs.nav-stacked > .active > a:hover,
 .nav-tabs.nav-stacked > .active > a:focus {
-  background-color: rgba(58,144,216,1);
+  background: rgba(58,144,216,1);
   color: rgba(255,255,255,1);
   border-bottom: 0;
   padding: 10px 10px 10px 10px;
@@ -142,7 +142,7 @@
 .nav-pills .open .dropdown-toggle,
 .nav > li.dropdown.open.active > a:hover,
 .nav > li.dropdown.open.active > a:focus {
-  background-color: rgba(236,238,241,1);
+  background: rgba(236,238,241,1);
   color: rgba(71,74,84,1);
 }
 .tabbable { *zoom: 1; }

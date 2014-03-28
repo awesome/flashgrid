@@ -43,9 +43,10 @@
   padding: 0 5px;
 }
 .tooltip-inner {
-  background-color: rgba(71,74,84,1);
+  background: rgba(71,74,84,1);
   border-radius: 3px;
   color: rgba(255,255,255,1);
+  display: block;
   letter-spacing: 0;
   max-width: 200px;
   padding: 5px 10px;

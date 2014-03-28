@@ -5,13 +5,13 @@
 /* #Progress
 ================================================== */
 .progress {
-  background-color: rgba(236,238,241,1);
+  background: rgba(236,238,241,1);
   border-radius: 500px;
   height: 25px;
   overflow: hidden;
 }
 .progress .bar {
-  background-color: rgba(79,148,210,1);
+  background: rgba(79,148,210,1);
   box-sizing: border-box;
   color: rgba(255,255,255,1);
   float: left;

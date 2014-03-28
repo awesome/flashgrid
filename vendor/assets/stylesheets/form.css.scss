@@ -43,7 +43,7 @@ input[type="color"],
 .uneditable-input {
   -webkit-appearance: none;
      -moz-appearance: none;
-  background-color: rgba(255,255,255,1);
+  background: rgba(255,255,255,1);
   border: 1px solid rgba(217,222,225,1);
   border-radius: 0;
   -moz-box-sizing: border-box;
@@ -82,8 +82,8 @@ input[type="color"]:focus,
   border-color: rgba(58,144,216,1);
   outline: 0;
   outline: thin dotted \9;
-  -webkit-transition: background-color 150ms linear;
-          transition: background-color 150ms linear;
+  -webkit-transition: background 150ms linear;
+          transition: background 150ms linear;
 }
 input[type="radio"],
 input[type="checkbox"] {
@@ -161,7 +161,7 @@ input[disabled],
 textarea[disabled],
 select[disabled],
 .uneditable-input {
-  background-color: rgba(246,247,249,1);
+  background: rgba(246,247,249,1);
   color: rgba(158,171,179,1);
   cursor: not-allowed;
 }
@@ -183,7 +183,7 @@ select.form-input-initial-width {
 .form-header h5,
 .form-header h6 { margin-bottom: 0; }
 .form-cap {
-  background-color: rgba(58,144,216,1);
+  background: rgba(58,144,216,1);
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   color: rgba(255,255,255,1);
@@ -196,7 +196,7 @@ select.form-input-initial-width {
 }
 .form-error-messages { margin-bottom: 40px; }
 .form-error-messages h4 {
-  background-color: rgba(236,238,241,1);
+  background: rgba(236,238,241,1);
   border: 1px solid rgba(217,222,225,1);
   margin: 0;
   padding: 5px 10px;

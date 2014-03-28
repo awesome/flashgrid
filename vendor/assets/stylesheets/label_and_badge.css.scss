@@ -6,7 +6,7 @@
 ================================================== */
 .label,
 .badge {
-  background-color: rgba(236,238,241,1);
+  background: rgba(236,238,241,1);
   border: 1px solid rgba(217,222,225,1);
   border-radius: 2px;
   color: rgba(71,74,84,1);
@@ -31,17 +31,17 @@ a.badge:hover,
 a.badge:focus { text-decoration: none; }
 .label-green,
 .badge-green {
-  background-color: rgba(223,240,216,1);
+  background: rgba(223,240,216,1);
   border-color: rgba(204,223,188,1);
 }
 .label-yellow,
 .badge-yellow {
-  background-color: rgba(252,248,227,1);
+  background: rgba(252,248,227,1);
   border-color: rgba(244,228,203,1);
 }
 .label-red,
 .badge-red {
-  background-color: rgba(242,222,222,1);
+  background: rgba(242,222,222,1);
   border-color: rgba(228,201,205,1);
 }
 .btn .label,

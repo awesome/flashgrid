@@ -7,7 +7,7 @@
 /* #Code
 ================================================== */
 code {
-  background-color: rgba(236,238,241,1);
+  background: rgba(236,238,241,1);
   border-radius: 2px;
   color: rgba(43,50,53,1);
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
@@ -23,7 +23,7 @@ code {
 /* #Pre
 ================================================== */
 pre {
-  background-color: rgba(236,238,241,1);
+  background: rgba(236,238,241,1);
   border-radius: 3px;
   color: rgba(43,50,53,1);
   display: block;
@@ -49,7 +49,7 @@ pre {
       }                                     /* Comment */
 .err  {
         color: rgba(254,79,50,1);
-        background-color: rgba(71,74,84,1);
+        background: rgba(71,74,84,1);
       }                                     /* Error */
 .k    { color: rgba(58,144,216,1); }        /* Keyword */
 .cm   {

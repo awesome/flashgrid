@@ -35,14 +35,19 @@
   text-rendering: geometricPrecision;
   vertical-align: middle;
 }
-.btn:hover {
+.btn:hover,
+.btn[disabled],
+.btn[disabled]:hover {
   background: rgba(226,228,231,1);
   text-decoration: none;
-  -webkit-transition: all 0.1s linear;
-          transition: all 0.1s linear;
+  -webkit-transition: all 0.3s linear;
+          transition: all 0.3s linear;
 }
 .btn[disabled],
-.btn[disabled]:hover { cursor: not-allowed; }
+.btn[disabled]:hover {
+  color: rgba(71,74,84,1);
+  cursor: not-allowed;
+}
 
 /* #Button Sizes
 ================================================== */
@@ -55,7 +60,7 @@
 .btn-small {
   font-size: 11px;
   line-height: 11px;
-  padding: 8px 15px;
+  padding: 7px 15px 9px 15px;
 }
 .btn-mini {
   font-size: 9px;
@@ -77,31 +82,45 @@ input.btn-block {
 /* #Button Colors
 ================================================== */
 .btn-black,
+.btn-black[disabled],
 .btn-blue,
+.btn-blue[disabled],
 .btn-green,
-.btn-red { color: rgba(255,255,255,1); }
+.btn-green[disabled],
+.btn-red,
+.btn-red[disabled] { color: rgba(255,255,255,1); }
 .btn-black {
   background: rgba(61,64,74,1);
   border-color: rgba(11,14,24,1);
 }
-.btn-black:hover { background: rgba(51,54,64,1); }
+.btn-black:hover,
+.btn-black[disabled],
+.btn-black[disabled]:hover { background: rgba(51,54,64,1); }
 .btn-blue {
   background: rgba(58,144,216,1);
   border-color: rgba(28,114,186,1);
 }
-.btn-blue:hover { background: rgba(48,134,206,1); }
+.btn-blue:hover,
+.btn-blue[disabled],
+.btn-blue[disabled]:hover { background: rgba(48,134,206,1); }
 .btn-green {
   background: rgba(122,179,23,1);
   border-color: rgba(102,159,3,1);
 }
-.btn-green:hover { background: rgba(112,169,13,1); }
+.btn-green:hover,
+.btn-green[disabled],
+.btn-green[disabled]:hover { background: rgba(112,169,13,1); }
 .btn-red {
   background: rgba(220,74,56,1);
   border-color: rgba(180,34,16,1);
 }
-.btn-red:hover { background: rgba(210,64,46,1); }
+.btn-red:hover,
+.btn-red[disabled],
+.btn-red[disabled]:hover { background: rgba(210,64,46,1); }
 .btn-white { background: rgba(255,255,255,1); }
-.btn-white:hover { background: rgba(226,228,231,1); }
+.btn-white:hover,
+.btn-white[disabled],
+.btn-white[disabled]:hover { background: rgba(226,228,231,1); }
 
 /* #Button Links
 ================================================== */
@@ -188,6 +207,34 @@ input.btn-block {
 /* #Button Styles
 ================================================== */
 .btn-round { border-radius: 500px; }
+.btn-uppercase {
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 12px;
+  padding-bottom: 13px;
+  text-transform: uppercase;
+}
+.btn-xlarge.btn-uppercase {
+  font-size: 13px;
+  line-height: 13px;
+  padding: 20px 30px;
+}
+.btn-large.btn-uppercase {
+  font-size: 13px;
+  line-height: 13px;
+  padding-bottom: 16px;
+     padding-top: 16px;
+}
+.btn-small.btn-uppercase {
+  font-size: 10px;
+  line-height: 10px;
+  padding-top: 8px;
+}
+.btn-mini.btn-uppercase {
+  font-size: 8px;
+  line-height: 8px;
+  padding-bottom: 7px;
+}
 
 /* #Button Group
 ================================================== */

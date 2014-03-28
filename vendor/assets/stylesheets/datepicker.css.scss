@@ -65,7 +65,7 @@
   width: 20px;
 }
 .datepicker td.day:hover {
-  background-color: rgba(58,144,216,1);
+  background: rgba(58,144,216,1);
   border-radius: 500px;
   color: rgba(255,255,255,1);
   cursor: pointer;
@@ -86,7 +86,7 @@
 .datepicker td.active:hover.disabled,
 .datepicker td.active[disabled],
 .datepicker td.active:hover[disabled] {
-  background-color: rgba(122,179,23,1);
+  background: rgba(122,179,23,1);
   border-radius: 500px;
   color: rgba(255,255,255,1);
 }
@@ -100,7 +100,7 @@
   width: 46px;
 }
 .datepicker td span:hover {
-  background-color: rgba(58,144,216,1);
+  background: rgba(58,144,216,1);
   color: rgba(255,255,255,1);
   cursor: pointer;
 }
@@ -111,7 +111,7 @@
 .datepicker td span.active.active,
 .datepicker td span.active.disabled,
 .datepicker td span.active[disabled] {
-  background-color: rgba(122,179,23,1);
+  background: rgba(122,179,23,1);
   color: rgba(255,255,255,1);
 }
 .datepicker th.switch {
@@ -121,7 +121,7 @@
 .datepicker th.next,
 .datepicker th.prev { font-size: 17px; }
 .datepicker thead tr:first-child th:hover {
-  background-color: rgba(58,144,216,1);
+  background: rgba(58,144,216,1);
   border-radius: 2px;
   color: rgba(255,255,255,1);
   cursor: pointer;

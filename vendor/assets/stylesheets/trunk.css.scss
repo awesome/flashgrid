@@ -6,13 +6,13 @@
 /* #Trunk
 ================================================== */
 .trunk {
-  background-color: rgba(58,144,216,1);
+  background: rgba(58,144,216,1);
   margin: -40px 0 40px 0;
   width: 100%;
 }
 .trunk-buffer { padding: 30px 0; }
 .trunk-search input {
-  background-color: transparent;
+  background: transparent;
   border-color: rgba(255,255,255,0.25);
   color: rgba(255,255,255,1);
   font-weight: 200;
@@ -31,7 +31,7 @@
   padding: 12px 15px 10px 0;
 }
 .trunk-nav a:hover {
-  background-color: rgba(0,0,0,0.075);
+  background: rgba(0,0,0,0.075);
   color: rgba(255,255,255,1);
   padding-left: 15px;
 }
@@ -55,7 +55,7 @@
   text-align: center;
 }
 .trunk-account li a:hover {
-  background-color: rgba(0,0,0,0.075);
+  background: rgba(0,0,0,0.075);
   color: rgba(255,255,255,1);
 }
 

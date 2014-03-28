@@ -9,6 +9,7 @@
 #Decorations
 #Transforms
 #Weights
+#Modifiers
 #Displays */
 
 /* #Font-Face
@@ -110,7 +111,6 @@ p.small {
   font-size: 14px;
   line-height: 22px;
 }
-p.whitespaced { white-space: pre-wrap; }
 p img { margin: 0; }
 small {
   font-size: 11px;
@@ -177,6 +177,10 @@ blockquote small { color: rgba(158,171,179,1); }
 .text-normal { font-weight: normal; }
 .text-medium { font-weight: 500; }
 .text-bold   { font-weight: bold; }
+
+/* #Modifiers
+================================================== */
+.text-whitespaced { white-space: pre-wrap; }
 
 /* #Displays
 ================================================== */

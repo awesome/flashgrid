@@ -6,7 +6,7 @@
 /* #Modal
 ================================================== */
 .modal-backdrop {
-  background-color: rgba(71,74,84,1);
+  background: rgba(71,74,84,1);
   bottom: 0;
   left: 0;
   position: fixed;
@@ -22,7 +22,7 @@
 }
 .modal {
   background-clip: padding-box;
-  background-color: rgba(255,255,255,1);
+  background: rgba(255,255,255,1);
   border-radius: 5px;
   box-shadow: 0 0 3px rgba(0,0,0,0.25);
   left: 50%;
@@ -99,7 +99,7 @@ input[type="submit"].modal-footer-btn {
   font-weight: 500;
   line-height: 13px;
   margin: 0;
-  padding: 18px 0 16px 0;
+  padding: 20px 0 18px 0;
   text-align: center;
   text-indent: 0;
   text-rendering: geometricPrecision;

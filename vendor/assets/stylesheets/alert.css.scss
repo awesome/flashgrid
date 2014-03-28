@@ -5,7 +5,7 @@
 /* #Alert
 ================================================== */
 .alert {
-  background-color: rgba(236,238,241,1);
+  background: rgba(236,238,241,1);
   border-bottom: 1px solid rgba(217,222,225,1);
   color: rgba(71,74,84,1);
   font-size: 16px;
@@ -38,23 +38,23 @@
 }
 .alert-green,
 .alert-success {
-  background-color: rgba(223,240,216,1);
+  background: rgba(223,240,216,1);
   border-color: rgba(204,223,188,1);
 }
 .alert-yellow,
 .alert-warning {
-  background-color: rgba(252,248,227,1);
+  background: rgba(252,248,227,1);
   border-color: rgba(244,228,203,1);
 }
 .alert-red,
 .alert-error,
 .alert-alert {
-  background-color: rgba(242,222,222,1);
+  background: rgba(242,222,222,1);
   border-color: rgba(228,201,205,1);
 }
 .alert-black,
 .alert-system {
-  background-color: rgba(71,74,84,1);
+  background: rgba(71,74,84,1);
   border-color: rgba(61,64,74,1);
   color: rgba(255,255,255,1);
 }

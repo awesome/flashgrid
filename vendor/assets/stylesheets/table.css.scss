@@ -6,7 +6,7 @@
 /* #Table
 ================================================== */
 table {
-  background-color: transparent;
+  background: transparent;
   border-collapse: collapse;
   border-spacing: 0;
   max-width: 100%;
@@ -22,7 +22,7 @@ table {
   vertical-align: top;
 }
 .table th {
-  background-color: rgba(236,238,241,1);
+  background: rgba(236,238,241,1);
   color: rgba(71,74,84,1);
   font-size: 14px;
   font-weight: bold;
@@ -37,7 +37,7 @@ table {
 .table thead:first-child tr:first-child th,
 .table thead:first-child tr:first-child td { border-top: 0; }
 .table tbody + tbody { border-top: 2px solid rgba(217,222,225,1); }
-.table .table { background-color: rgba(255,255,255,1); }
+.table .table { background: rgba(255,255,255,1); }
 .table-condensed th,
 .table-condensed td {
   font-size: 14px;
@@ -64,9 +64,9 @@ table {
 .table-bordered tbody:first-child tr:first-child th,
 .table-bordered tbody:first-child tr:first-child td { border-top: 0; }
 .table-striped tbody > tr:nth-child(odd) > td,
-.table-striped tbody > tr:nth-child(odd) > th { background-color: rgba(246,247,249,1); }
+.table-striped tbody > tr:nth-child(odd) > th { background: rgba(246,247,249,1); }
 .table-hover tbody tr:hover > td,
-.table-hover tbody tr:hover > th { background-color: rgba(240,241,244,1); }
+.table-hover tbody tr:hover > th { background: rgba(240,241,244,1); }
 .table-unbordered,
 .table-unbordered thead,
 .table-unbordered tbody,

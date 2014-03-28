@@ -5,3 +5,7 @@
 /* #Affix
 ================================================== */
 .affix { position: fixed; }
+.affix-bottom {
+  position: absolute;
+  top: auto;
+}
